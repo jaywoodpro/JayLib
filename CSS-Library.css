@@ -136,11 +136,11 @@
 }
 /*======================Round Button Icon======================= */
 .btn-round{
-    font-size: 25px;
-    width: 67px;
-    height: 67px;
+    font-size: 12px;
+    width: 35px;
+    height: 35px;
     text-align: center;
-    line-height: 52px;
+    line-height: 26px;
     background: #FF645F;
     color: whitesmoke;
     border-radius: 100%;
@@ -153,7 +153,7 @@
     box-shadow: 3px 3px 4px rgba(171, 183, 183, 1);
 }
 .btn-round-outline{
-    font-size: 25px;
+    font-size: 22px;
     width: 67px;
     height: 67px;
     text-align: center;
@@ -171,6 +171,24 @@
 .btn-round-outline:focus{
     outline: 0;
 }
+.btn-round-mid{
+    font-size: 22px;
+    width: 67px;
+    height: 67px;
+    text-align: center;
+    line-height: 52px;
+    background: #FF645F;
+    color: whitesmoke;
+    border-radius: 100%;
+    border: 0;
+}
+.btn-round-mid:focus{
+    outline: 0;
+}
+.btn-round-mid:hover{
+    box-shadow: 3px 3px 4px rgba(171, 183, 183, 1);
+}
+
 
 body{
     background-color: white;
