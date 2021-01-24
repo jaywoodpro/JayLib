@@ -25,9 +25,11 @@
     --blux4: #37b9f1;
 }
 .btn-sim{
-    padding: 5px 10px;
+    padding: 5px 15px;
     border-radius: 5px;
-    border: 2px solid #edf6fc;
+    border: 1px solid #edf6fc;
+    color: #e6f9f5;
+    background-color: #1f1f1f;
 }
 .btn-sim:focus{
     outline: 0;
