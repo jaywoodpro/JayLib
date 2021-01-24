@@ -12,7 +12,8 @@
     --orgx: #f7be7d;
     --blcx: #131313;
     --blux3 : #418dff;
-    --emerald: #35cda7;
+    --grnx1: #35cda7;
+    --grnx2: #37c978;
     --blcx1: #1f1f1f;
     --prpx1: #8d68fa;
     --grnx: #98ce94;
@@ -25,15 +26,15 @@ body{
 .testColor1{
     width: 200px;
     height: 100px;
-    background-color: #418dff;
+    background-color: #dee9ee;
 }
 .testColor2{
     width: 200px;
     height: 100px;
-    background-color: #35cda7;
+    background-color: #37c978;
 }
 .testColor3{
     width: 200px;
     height: 100px;
-    background-color: #8d68fa;
+    background-color: #ffff;
 }
