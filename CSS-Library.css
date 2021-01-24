@@ -1,0 +1,36 @@
+:root{
+    --bittersweet: #FF645F;
+    --anakiwa: #83deff;
+    --kournikova: #ffeb83;
+    --blux: #edf6fc;
+    --yllx: #fef9eb;
+    --rdx: #fcf1ea;
+    --blux1: #e6f9f5;
+    --prpx: #edecff;
+    --rdx1: #b12341;
+    --blux2: #99d5f3;
+    --orgx: #f7be7d;
+    --blcx: #131313;
+    --blux3 : #418dff;
+    --emerald: #35cda7;
+    --blcx1: #1f1f1f;
+    --prpx1: #8d68fa;
+}
+body{
+    background-color: #1f1f1f;
+}
+.testColor1{
+    width: 200px;
+    height: 100px;
+    background-color: #418dff;
+}
+.testColor2{
+    width: 200px;
+    height: 100px;
+    background-color: #35cda7;
+}
+.testColor3{
+    width: 200px;
+    height: 100px;
+    background-color: #8d68fa;
+}
