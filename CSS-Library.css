@@ -1,3 +1,4 @@
+/*==================color Root=======================*/
 :root{
     --bittersweet: #FF645F;
     --anakiwa: #83deff;
@@ -24,16 +25,30 @@
     --blcx3: #100f10;
     --blux4: #37b9f1;
 }
+/*===================Simple Buttons===============*/
 .btn-sim{
-    padding: 5px 15px;
-    border-radius: 5px;
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 5px 20px;
+    border-radius: 15px;
     border: 1px solid #edf6fc;
-    color: #e6f9f5;
-    background-color: #1f1f1f;
+    color: #131313;
 }
 .btn-sim:focus{
     outline: 0;
 }
+.btn-sim-dark{
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 5px 20px;
+    border-radius: 15px;
+    border: 1px solid #edf6fc;
+    color: #e6f9f5;
+    background-color: #131313;
+}
+.btn-sim-dark:focus{
+    outline: 0;
+}
 body{
-    background-color: #1f1f1f;
+    background-color: #fcf1ea;
 }
