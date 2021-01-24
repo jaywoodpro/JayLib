@@ -90,11 +90,49 @@
     text-align: center;
 }
 .btn-sim-dark:hover{
-    box-shadow: 3px 3px 5px rgba(171, 183, 183, 1);
+    box-shadow: 3px 3px 5px rgba(108, 122, 137, 1);
 }
 .btn-sim-dark:focus{
     outline: 0;
 }
+.btn-sim-mid-dark{
+    font-size: 18px;
+    font-weight: normal;
+    padding: 10px 35px;
+    border-radius: 30px;
+    border: 1px solid #131313;
+    background-color: #131313;
+    color: #e6f9f5;
+    transition: box-shadow 0.4s;
+    cursor: pointer;
+    text-align: center;
+}
+.btn-sim-mid-dark:hover{
+    box-shadow: 3px 3px 5px rgba(108, 122, 137, 1);
+}
+.btn-sim-mid-dark:focus{
+    outline: 0;
+}
+.btn-sim-lg-dark{
+    font-size: 25px;
+    font-weight: normal;
+    padding: 8px 42px;
+    border-radius: 33px;
+    border: 1px solid #131313;
+    color: #edf6fc;
+    background-color: #131313;
+    transition: box-shadow 0.4s;
+    cursor: pointer;
+    text-align: center;
+}
+.btn-sim-lg-dark:hover{
+    box-shadow: 3px 3px 5px rgba(108, 122, 137, 1);
+}
+.btn-sim-lg-dark:focus{
+    outline: 0;
+}
+/*======================Round Button Icon======================= */
+
 body{
-    background-color: #83deff;
+    background-color: white;
 }
