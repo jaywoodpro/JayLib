@@ -134,7 +134,7 @@
 .btn-sim-lg-dark:focus{
     outline: 0;
 }
-/*======================Round Button Icons======================= */
+/*======================Round Buttons======================= */
 .btn-round{
     font-size: 12px;
     width: 35px;
@@ -153,11 +153,11 @@
     box-shadow: 3px 3px 4px rgba(171, 183, 183, 1);
 }
 .btn-round-outline{
-    font-size: 22px;
-    width: 67px;
-    height: 67px;
+    font-size: 12px;
+    width: 35px;
+    height: 35px;
     text-align: center;
-    line-height: 52px;
+    line-height: 26px;
     color: #1f1f1f;
     border-radius: 100%;
     border: 2px solid #37c978;
@@ -187,6 +187,25 @@
 }
 .btn-round-mid:hover{
     box-shadow: 3px 3px 4px rgba(171, 183, 183, 1);
+}
+.btn-round-outline-mid{
+    font-size: 22px;
+    width: 67px;
+    height: 67px;
+    text-align: center;
+    line-height: 52px;
+    color: #1f1f1f;
+    border-radius: 100%;
+    border: 2px solid #37c978;
+    transition: all 0.4s;
+}
+.btn-round-outline-mid:hover{
+    box-shadow: 3px 3px 4px rgba(171, 183, 183, 1);
+    background-color: #37c978;
+    color: whitesmoke;
+}
+.btn-round-outline-mid:focus{
+    outline: 0;
 }
 
 
