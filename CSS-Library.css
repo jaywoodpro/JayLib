@@ -31,7 +31,7 @@
     font-weight: lighter;
     padding: 7px 20px;
     border-radius: 22px;
-    border: 1px solid #edf6fc;
+    border: 0;
     color: #131313;
     transition: all 0.4s;
     cursor: pointer;
@@ -49,7 +49,7 @@
     font-weight: normal;
     padding: 10px 35px;
     border-radius: 30px;
-    border: 1px solid #edf6fc;
+    border: 0;
     color: #131313;
     transition: all 0.4s;
     cursor: pointer;
@@ -67,7 +67,7 @@
     font-weight: normal;
     padding: 8px 42px;
     border-radius: 33px;
-    border: 1px solid #edf6fc;
+    border: 0;
     color: #131313;
     transition: all 0.4s;
     cursor: pointer;
@@ -85,7 +85,7 @@
     font-weight: lighter;
     padding: 7px 20px;
     border-radius: 22px;
-    border: 1px solid  #131313;
+    border: 0;
     color: #e6f9f5;
     background-color: #131313;
     transition: all 0.4s;
@@ -103,7 +103,7 @@
     font-weight: normal;
     padding: 10px 35px;
     border-radius: 30px;
-    border: 1px solid #131313;
+    border:0;
     background-color: #131313;
     color: #e6f9f5;
     transition: all 0.4s;
@@ -121,7 +121,7 @@
     font-weight: normal;
     padding: 8px 42px;
     border-radius: 33px;
-    border: 1px solid #131313;
+    border: 0;
     color: #edf6fc;
     background-color: #131313;
     transition: all 0.4s;
@@ -136,17 +136,42 @@
 }
 /*======================Round Button Icon======================= */
 .btn-round{
-    padding: 5px 10px;
-    background-color: #37c978;
-    border-radius: 50%;
-    border: 1px solid #e6f9f5;
+    font-size: 25px;
+    width: 67px;
+    height: 67px;
+    text-align: center;
+    line-height: 52px;
+    background: #FF645F;
+    color: whitesmoke;
+    border-radius: 100%;
+    border: 0;
 }
 .btn-round:focus{
     outline: 0;
 }
 .btn-round:hover{
-
+    box-shadow: 3px 3px 4px rgba(171, 183, 183, 1);
 }
+.btn-round-outline{
+    font-size: 25px;
+    width: 67px;
+    height: 67px;
+    text-align: center;
+    line-height: 52px;
+    color: #1f1f1f;
+    border-radius: 100%;
+    border: 2px solid #37c978;
+    transition: all 0.4s;
+}
+.btn-round-outline:hover{
+    box-shadow: 3px 3px 4px rgba(171, 183, 183, 1);
+    background-color: #37c978;
+    color: whitesmoke;
+}
+.btn-round-outline:focus{
+    outline: 0;
+}
+
 body{
     background-color: white;
 }
