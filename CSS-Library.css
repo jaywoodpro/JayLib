@@ -491,9 +491,12 @@ a:hover{
 .btn-block-outline:focus{
     outline: 0;
 }
-/*=====================*/
+/*=====================================Buttons Slide=============================*/
+.btn-slide{
+
+}
 
 body{
-    background-color: black;
+    background-color: white;
 }
 
