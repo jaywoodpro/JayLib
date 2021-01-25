@@ -28,6 +28,10 @@
 /*===================Simple Buttons===============*/
 a{
     text-decoration: none;
+    padding: 2px;
+}
+a:hover{
+    color: #f7f7fe;
 }
 .btn-sim{
     font-size: 15px;
@@ -296,6 +300,7 @@ a{
 .btn-border-lg:focus{
     outline: 0;
 }
+/*===========================Gradient Buttons=============================*/
 .btn-gradient{
     font-weight: normal;
     padding: 7px 20px;
@@ -316,6 +321,7 @@ a{
     border: 0;
     transform: scale(1);
     box-shadow: 3px 3px 5px rgba(171, 183, 183, 1);
+    color: #f7f7fe;
 }
 .btn-gradient:focus{
     outline: 0;
@@ -341,6 +347,7 @@ a{
     border: 0;
     transform: scale(1);
     box-shadow: 3px 3px 5px rgba(171, 183, 183, 1);
+    color: #f7f7fe;
 }
 .btn-gradient-mid:focus{
     outline: 0;
@@ -366,8 +373,84 @@ a{
     border: 0;
     transform: scale(1);
     box-shadow: 3px 3px 5px rgba(171, 183, 183, 1);
+    color: #f7f7fe;
 }
 .btn-gradient-lg:focus{
+    outline: 0;
+}
+/*===========================Neon Buttons==================================*/
+.btn-neon{
+    font-weight: normal;
+    padding: 7px 20px;
+    background-color: #F0F0F0;
+    border:2px solid #D8D8D8;
+    border-radius: 22px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    color: rgba(0,0,0,1);
+    transition: all 0.2s;
+    cursor: pointer;
+    transform: scale(0.98);
+}
+.btn-neon:hover{
+    border: none;
+    color: #111;
+    box-shadow: 1px 1px 25px white;
+    background-color: white;
+    transform: scale(1);
+}
+.btn-neon:focus{
+    outline: 0;
+}
+.btn-neon-mid{
+    font-size: 22px;
+    font-weight: normal;
+    padding: 10px 35px;
+    background-color: #F0F0F0;
+    border:2px solid #D8D8D8;
+    border-radius: 30px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    color: rgba(0,0,0,1);
+    transition: all 0.2s;
+    cursor: pointer;
+    transform: scale(0.98);
+}
+.btn-neon-mid:hover{
+    border: none;
+    color: #111;
+    box-shadow: 1px 1px 25px white;
+    background-color: white;
+    transform: scale(1);
+}
+.btn-neon-mid:focus{
+    outline: 0;
+}
+.btn-neon-lg{
+    font-size: 25px;
+    font-weight: normal;
+    padding: 12px 60px;
+    border-radius: 33px;
+    background-color: #F0F0F0;
+    border:2px solid #D8D8D8;
+    width: auto;
+    height: auto;
+    text-align: center;
+    color: rgba(0,0,0,1);
+    transition: all 0.2s;
+    cursor: pointer;
+    transform: scale(0.98);
+}
+.btn-neon-lg:hover{
+    border: none;
+    color: #111;
+    box-shadow: 1px 1px 25px white;
+    background-color: white;
+    transform: scale(1);
+}
+.btn-neon-lg:focus{
     outline: 0;
 }
 /*=============================Block Buttons==============================*/
@@ -411,9 +494,6 @@ a{
 /*=====================*/
 
 body{
-    background-color: white;
-}
-ul{
-    text-decoration: none;
+    background-color: black;
 }
 
