@@ -112,6 +112,7 @@ a:hover{
 }
 .btn-sim-dark:hover{
     box-shadow: 3px 3px 5px rgba(108, 122, 137, 1);
+    border: 0;
 }
 .btn-sim-dark:focus{
     outline: 0;
@@ -132,6 +133,7 @@ a:hover{
 }
 .btn-sim-mid-dark:hover{
     box-shadow: 3px 3px 5px rgba(108, 122, 137, 1);
+    border: 0;
 }
 .btn-sim-mid-dark:focus{
     outline: 0;
@@ -152,6 +154,7 @@ a:hover{
 }
 .btn-sim-lg-dark:hover{
     box-shadow: 3px 3px 5px rgba(108, 122, 137, 1);
+    border: 0;
 }
 .btn-sim-lg-dark:focus{
     outline: 0;
