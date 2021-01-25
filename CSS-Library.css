@@ -296,8 +296,22 @@ a{
 .btn-border-lg:focus{
     outline: 0;
 }
-
-
+.btn-gradient{
+    font-weight: normal;
+    padding: 7px 20px;
+    background-color: #F0F0F0;
+    border:2px solid;
+    Border-image-source: linear-gradient(to right, #fc466b, #3f5efb);
+    border-image-slice: 1;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    color: rgba(0,0,0,1);
+    transition: all 0.4s;
+    cursor: pointer;
+    transform: scale(0.98);
+}
 /*=============================Block Buttons==============================*/
 .btn-block{
     width: 100%;
@@ -324,7 +338,7 @@ a{
     padding: 7px 18px;
     border-radius: 30px;
     text-align: center;
-    border: 2px solid #418dff;
+    border: 1px solid #418dff;
     color: #101010;
     font-size: 25px;
     transition: all 0.4s;
@@ -336,8 +350,7 @@ a{
 .btn-block-outline:focus{
     outline: 0;
 }
-
-
+/*=====================*/
 
 body{
     background-color: white;
