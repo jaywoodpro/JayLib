@@ -303,14 +303,72 @@ a{
     border:2px solid;
     Border-image-source: linear-gradient(to right, #fc466b, #3f5efb);
     border-image-slice: 1;
-    border-radius: 5px;
     width: auto;
     height: auto;
     text-align: center;
     color: rgba(0,0,0,1);
-    transition: all 0.4s;
+    transition: all 0.2s;
     cursor: pointer;
     transform: scale(0.98);
+}
+.btn-gradient:hover{
+    background-image: linear-gradient(to right, #fc466b, #3f5efb);
+    border: 0;
+    transform: scale(1);
+    box-shadow: 3px 3px 5px rgba(171, 183, 183, 1);
+}
+.btn-gradient:focus{
+    outline: 0;
+}
+.btn-gradient-mid{
+    font-size: 22px;
+    font-weight: normal;
+    padding: 10px 35px;
+    background-color: #F0F0F0;
+    border:2px solid;
+    Border-image-source: linear-gradient(to right, #fc466b, #3f5efb);
+    border-image-slice: 1;
+    width: auto;
+    height: auto;
+    text-align: center;
+    color: rgba(0,0,0,1);
+    transition: all 0.2s;
+    cursor: pointer;
+    transform: scale(0.98);
+}
+.btn-gradient-mid:hover{
+    background-image: linear-gradient(to right, #fc466b, #3f5efb);
+    border: 0;
+    transform: scale(1);
+    box-shadow: 3px 3px 5px rgba(171, 183, 183, 1);
+}
+.btn-gradient-mid:focus{
+    outline: 0;
+}
+.btn-gradient-lg{
+    font-size: 25px;
+    font-weight: normal;
+    padding: 12px 65px;
+    background-color: #F0F0F0;
+    border:2px solid;
+    Border-image-source: linear-gradient(to right, #fc466b, #3f5efb);
+    border-image-slice: 1;
+    width: auto;
+    height: auto;
+    text-align: center;
+    color: rgba(0,0,0,1);
+    transition: all 0.2s;
+    cursor: pointer;
+    transform: scale(0.98);
+}
+.btn-gradient-lg:hover{
+    background-image: linear-gradient(to right, #fc466b, #3f5efb);
+    border: 0;
+    transform: scale(1);
+    box-shadow: 3px 3px 5px rgba(171, 183, 183, 1);
+}
+.btn-gradient-lg:focus{
+    outline: 0;
 }
 /*=============================Block Buttons==============================*/
 .btn-block{
