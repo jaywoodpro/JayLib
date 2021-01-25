@@ -158,7 +158,7 @@ a{
     width: 35px;
     height: 35px;
     text-align: center;
-    line-height: 26px;
+    line-height: 25px;
     background: #FF645F;
     color: whitesmoke;
     border-radius: 100%;
@@ -223,6 +223,24 @@ a{
     color: whitesmoke;
 }
 .btn-round-outline-mid:focus{
+    outline: 0;
+}
+/*=============================Border Buttons=============================*/
+.btn-border{
+    font-weight: normal;
+    padding: 7px 20px;
+    background-color: #F0F0F0;
+    width: auto;
+    height: auto;
+    text-align: center;
+    color: #131313;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.btn-border:hover{
+border-bottom: 2px solid  #418dff;
+}
+.btn-border:focus{
     outline: 0;
 }
 
