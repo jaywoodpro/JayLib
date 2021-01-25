@@ -494,13 +494,7 @@ a:hover{
 .btn-block-outline:focus{
     outline: 0;
 }
-/*=====================================Buttons Slide=============================*/
-.btn-slide{
-
-}
-body{
-    background-color: white;
-}
+/*====================Button Out============================================*/
 @import url("https://fonts.googleapis.com/css?family=Mukta:700");
 .btn-out {
     position: relative;
