@@ -578,10 +578,10 @@ button:hover .btn-out-circle .icon.arrow {
 button:hover .button-text {
     color: #fff;
 }
-/*=================Draw Border Button=========================*/
+/*===========================Draw Border Button=========================*/
 .draw-border {
-    box-shadow: inset 0 0 0 4px #58afd1;
-    color: #58afd1;
+    box-shadow: inset 0 0 0 4px  #6a26cd;
+    color: #6a26cd;
     transition: color 0.25s 0.0833333333s;
     position: relative;
 }
@@ -605,10 +605,10 @@ button:hover .button-text {
     border-right-width: 4px;
 }
 .draw-border:hover {
-    color: #ffe593;
+    color: #8d68fa;
 }
 .draw-border:hover::before, .draw-border:hover::after {
-    border-color: #ffe593;
+    border-color: #8d68fa;
     transition: border-color 0s, width 0.25s, height 0.25s;
     width: 100%;
     height: 100%;
@@ -629,7 +629,7 @@ button:hover .button-text {
     letter-spacing: 0.05rem;
 }
 .btn-draw-border:focus {
-    outline: 2px dotted #55d7dc;
+    outline: 2px dotted #8d68fa;
 }
 
 
