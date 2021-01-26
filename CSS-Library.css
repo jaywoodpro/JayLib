@@ -731,7 +731,33 @@ button:hover .button-text {
     background-color: rgba(255,224,102,0.6);
     text-align: center;
     text-justify: auto;
+    box-sizing: border-box;
 }
 .alert p{
 }
-
+/*======================badges=====================================*/
+.badge{
+    display: inline-block;
+    padding: .2em .4em;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.3;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .75rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.badge:hover{
+    background-color: rgba(128,128,128,1);
+    box-shadow: 2px 2px 5px rgb(105,105,105);
+}
+.badge-grey{
+    background-color: rgba(128,128,128,0.5);
+    color: #f7f7fe;
+}
+.badge-pink{
+    background-color: rgba(128,128,128,0.5);
+    color: #f7f7fe;
+}
