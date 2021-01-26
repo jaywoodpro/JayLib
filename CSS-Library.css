@@ -624,12 +624,58 @@ button:hover .button-text {
     border: none;
     cursor: pointer;
     line-height: 1.5;
-    font: 700 1.2rem "Roboto Slab", sans-serif;
-    padding: 1em 2em;
-    letter-spacing: 0.05rem;
+    font: 15px "Roboto Slab", sans-serif;
+    padding: 10px 20px;
+    letter-spacing: 1px;
 }
 .btn-draw-border:focus {
-    outline: 2px dotted #8d68fa;
+    outline: 1px solid #8d68fa;
 }
+/*==============Button Effect=======*/
+.btn-effect .effect-on{
+    transition: all 0.3s linear 0s;
+}
+.btn-effect.effect-on:before {
+    content: " ";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 0 50% 50% 0;
+    transform: scale(0, 1);
+    transform-origin: left center;
+    transition: all 0.3s linear 0s;
+}
+.btn-effect.effect-on:hover {
+    text-indent: 30px;
+}
+.btn-effect.effect-on:hover:before {
+    transform: scale(1, 1);
+    text-indent: 0;
+}
+.btn-effect {
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    background-color: #37c978;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 7px 20px;
+    border-radius: 22px;
+    border: 1px solid #D8D8D8;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+.btn-effect:focus{
+    outline: 0;
+}
+
 
 
