@@ -173,10 +173,10 @@ ul{
 /*======================Round Buttons======================= */
 .btn-round{
     font-size: 12px;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     text-align: center;
-    line-height: 25px;
+    line-height: 30px;
     background: #FF645F;
     color: whitesmoke;
     border-radius: 100%;
@@ -184,9 +184,6 @@ ul{
 }
 .btn-round:focus{
     outline: 0;
-}
-.btn-round:hover{
-    box-shadow: 3px 3px 5px rgba(171, 183, 183, 1);
 }
 .btn-round-outline{
     font-size: 12px;
@@ -855,6 +852,38 @@ button:hover .button-text {
 .breadcrumb-jl-item:last-child:after {
     content: none;
 }
+/*==============================fixed vertical navbar=======================*/
+.fix-vertical-navbar-container{
+    position: absolute;
+    left: 0;
+    top: 27vh;
+}
+.fix-vertical-navbar{
+    width: auto;
+    height: 100%;
+    background-color: transparent;
+    position: fixed;
+}
+.fix-vertical-navbar-item{
+    position: absolute;
+    left: 0;
+}
+.fix-vertical-navbar-item{
+    position: relative;
+    padding: 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
