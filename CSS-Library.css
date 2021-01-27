@@ -31,12 +31,17 @@
 a{
     text-decoration: none;
     padding: 2px;
+    cursor: pointer;
+    color: #1f1f1f;
 }
 a:hover{
     color: #f7f7fe;
 }
 body{
-    background-color:#f7f7fe;
+    background-color: whitesmoke;
+}
+ul{
+    list-style-type: none;
 }
 /*===================Simple Buttons===============*/
 .btn-sim{
@@ -716,27 +721,8 @@ button:hover .button-text {
     border-color: #696969;
     color: white;
 }
-
-/*================Alerts==========*/
-.alert{
-    position: relative;
-    padding: .5rem 1.25rem;
-    border: 1px solid rgba(255,224,102,1);
-    font-size: 16px;
-    font-weight: 400;
-    border-radius: 1rem;
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    background-color: rgba(255,224,102,0.6);
-    text-align: center;
-    text-justify: auto;
-    box-sizing: border-box;
-}
-.alert p{
-}
 /*======================badges=====================================*/
-.badge{
+.badge-jl{
     display: inline-block;
     padding: .2em .4em;
     font-size: 15px;
@@ -752,8 +738,6 @@ button:hover .button-text {
 }
 .badge-grey:hover{
     background-color: rgba(128,128,128,1);
-    box-shadow: 2px 2px 5px rgb(105,105,105);
-    border: none;
 }
 .badge-grey{
     background-color: rgba(128,128,128,0.5);
@@ -767,8 +751,6 @@ button:hover .button-text {
 }
 .badge-pink:hover{
     background-color: rgba(250,128,114,1);
-    box-shadow: 2px 2px 5px rgb(105,105,105);
-    border: none;
 }
 .badge-blue{
      background-color: rgba(73,151,208,0.9);
@@ -776,8 +758,6 @@ button:hover .button-text {
  }
 .badge-blue:hover{
     background-color: rgb(73,151,208);
-    box-shadow: 2px 2px 5px rgb(105,105,105);
-    border: none;
 }
 .badge-tan{
     background-color: rgb(210,180,140);
@@ -785,8 +765,6 @@ button:hover .button-text {
 }
 .badge-tan:hover{
     background-color: rgb(155,118,83);
-    box-shadow: 2px 2px 5px rgb(105,105,105);
-    border: none;
 }
 .badge-pumpkin{
     background-color: rgba(255,117,24,0.9);
@@ -794,8 +772,6 @@ button:hover .button-text {
 }
 .badge-pumpkin:hover{
     background-color: rgba(255,69,0,0.9);
-    box-shadow: 2px 2px 5px rgb(105,105,105);
-    border: none;
 }
 .badge-darkviolet{
     background-color: rgb(148,0,211);
@@ -803,8 +779,83 @@ button:hover .button-text {
 }
 .badge-darkviolet:hover{
     background-color: rgb(191,0,255);
-    box-shadow: 2px 2px 5px rgb(105,105,105);
-    border: none;
 }
+.badge-green{
+    background-color: rgb(34,139,34);
+    border: 1px solid rgb(0,128,0);
+}
+.badge-green:hover{
+    background-color: rgb(0,100,0);
+}
+.badge-maroon{
+    background-color: rgb(174,12,0);
+    border: 1px solid rgb(174,12,0);
+}
+.badge-maroon:hover{
+    background-color: rgb(128,0,0);
+}
+/*========================================BreadCrumb========================================*/
+.breadcrumb-jl{
+    display: inline-block;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+    border-radius: 5px;
+    background: #666;
+    background: linear-gradient(#666, #333);
+}
+.breadcrumb-jl-item{
+    text-decoration: none;
+    outline: none;
+    display: block;
+    float: left;
+    font-size: 12px;
+    line-height: 36px;
+    color: white;
+    padding: 0 10px 0 60px;
+    background: #666;
+    background: linear-gradient(#666, #333);
+    position: relative;
+
+}
+.breadcrumb-jl-item:first-child {
+    padding-left: 46px;
+    border-radius: 5px 0 0 5px;
+}
+.breadcrumb-jl-item:first-child:before {
+    left: 14px;
+}
+.breadcrumb-jl-item:last-child {
+    border-radius: 0 5px 5px 0;
+    padding-right: 20px;
+}
+.breadcrumb-jl-item:hover{
+    background: #333;
+    background: linear-gradient(#333, #000);
+}
+.breadcrumb-jl-item:hover:after {
+    background: #333;
+    background: linear-gradient(135deg, #333, #000);
+}
+.breadcrumb-jl-item:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -18px;
+    width: 36px;
+    height: 36px;
+    transform: scale(0.707) rotate(45deg);
+    z-index: 1;
+    background: #666;
+    background: linear-gradient(135deg, #666, #333);
+    box-shadow:
+            2px -2px 0 2px rgba(0, 0, 0, 0.4),
+            3px -3px 0 2px rgba(255, 255, 255, 0.1);
+    border-radius: 0 5px 0 50px;
+}
+.breadcrumb-jl-item:last-child:after {
+    content: none;
+}
+
+
 
 
