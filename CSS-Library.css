@@ -858,7 +858,7 @@ button:hover .button-text {
     width: 50px;
     height: 100%;
 }
-.social-media-box{
+.social-media-box-left{
     position: fixed;
     margin: 0;
     padding: 0;
@@ -871,8 +871,118 @@ button:hover .button-text {
     font-size: 22px;
     display: block;
     color: #131313;
-    padding: 5px 5px;
+    padding: 6px 6px;
+    cursor: pointer;
+    transition: all 0.3s;
 }
+.social-media-box-item:hover{
+    color: #418dff;
+}
+.social-media-box-parent{
+    position: relative;
+    width: 50px;
+    height: 100%;
+}
+.social-media-box-right{
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    top: 130px;
+    background-color: rgba(211,211,211,0.5);
+    border-radius: 18px;
+}
+.social-media-box-item{
+    font-size: 22px;
+    display: block;
+    color: #131313;
+    padding: 6px 6px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.social-media-box-item:hover{
+    color: #418dff;
+}
+
+/*=========================================forms============================*/
+/*type 1=================================*/
+.input-type1{
+    width: 300px;
+    display:block;
+    border: none;
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    border-bottom: 2px solid #696969;
+    transition: all 0.6s;
+    direction: rtl;
+    transform: scale(0.98);
+}
+.input-type1:hover{
+    border-bottom: 2px solid rgb(128,128,128);
+    background-color: #e5e4e2;
+}
+.input-type1:focus{
+    outline: 0;
+    box-shadow: 0 5px 2px rgb(192,192,192);
+    transform: scale(1);
+}
+
+/*type 2==================================*/
+.group{
+    position:relative;
+    margin-bottom:45px;
+}
+.input-type2{
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    display:block;
+    width:300px;
+    border:none;
+    border-bottom:1px solid #757575;
+    direction: rtl;
+}
+.input-type2:focus{ outline:none; }
+label{
+    color:#999;
+    font-size:18px;
+    font-weight:normal;
+    position:absolute;
+    pointer-events:none;
+    left:275px;
+    top:10px;
+    transition:0.2s ease all;
+    -moz-transition:0.2s ease all;
+    -webkit-transition:0.2s ease all;
+}
+.input-type2:focus ~ label, .input-type2:valid ~ label{
+    top:-20px;
+    font-size:14px;
+    color:#5264AE;
+}
+.bar{ position:relative; display:block; width:300px; }
+.bar:before, .bar:after 	{
+    content:'';
+    height:2px;
+    width:0;
+    bottom:1px;
+    position:absolute;
+    background:#418dff;
+    transition:0.2s ease all;
+    -moz-transition:0.2s ease all;
+    -webkit-transition:0.2s ease all;
+}
+.bar:before {
+    left:50%;
+}
+.bar:after {
+    right:50%;
+}
+.input-type2:focus ~ .bar:before, .input-type2:focus ~ .bar:after {
+    width:50%;
+}
+
+
+
 
 
 
