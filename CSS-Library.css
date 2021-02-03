@@ -27,6 +27,18 @@
     --blux4: #37b9f1;
     --redx: #eb1527;
     --greyx: #c9c9c9;
+    --select-border: #777;
+    --select-focus: blue;
+    --select-arrow: var(--select-border);
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+*:focus
+{
+    outline: none;
 }
 a{
     text-decoration: none;
@@ -980,6 +992,25 @@ label{
 .input-type2:focus ~ .bar:before, .input-type2:focus ~ .bar:after {
     width:50%;
 }
+/*=============================select=========================================================*/
+.select-jl{
+    width: 50%;
+    padding: 10px 3px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px #9aaacf;
+    border: 1px solid #bebebe;
+    transition: all 0.4s;
+}
+input[type = checkbox]{
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
 
 
 
